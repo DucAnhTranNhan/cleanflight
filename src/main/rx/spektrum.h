@@ -21,4 +21,3 @@
 #define SPEKTRUM_SAT_BIND_MAX 10
 
 uint8_t spektrumFrameStatus(void);
-bool spektrumInit(rxConfig_t *rxConfig, rxRuntimeConfig_t *rxRuntimeConfig, rcReadRawDataPtr *callback);
