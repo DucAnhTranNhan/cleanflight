@@ -15,7 +15,7 @@
  * along with Cleanflight.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-##pragma once
+#pragma once
 
 bool rxMspFrameComplete(void);
 void rxMspFrameRecieve(void);
