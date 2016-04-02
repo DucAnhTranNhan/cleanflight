@@ -308,6 +308,7 @@ NAZE_SRC	 = startup_stm32f10x_md_gcc.S \
 		   drivers/light_led_stm32f10x.c \
 		   drivers/light_ws2811strip.c \
 		   drivers/light_ws2811strip_stm32f10x.c \
+		   drivers/bus_spi_soft.c \
 		   drivers/sonar_hcsr04.c \
 		   drivers/pwm_mapping.c \
 		   drivers/pwm_output.c \
@@ -321,6 +322,7 @@ NAZE_SRC	 = startup_stm32f10x_md_gcc.S \
 		   drivers/timer_stm32f10x.c \
 		   drivers/flash_m25p16.c \
 		   io/flashfs.c \
+		   rx/nRF24L01.c \
 		   hardware_revision.c \
 		   $(HIGHEND_SRC) \
 		   $(COMMON_SRC)
